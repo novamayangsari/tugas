@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Quiz Pemrograman Web</title>
+<style>
+    .menu {
+        text-align: center;
+        background-color: rgb(252, 252, 252);
+        font-size: 18px;
+        padding-top: 10pt;
+    }
+    .button {
+        background-color: aqua;
+        padding: 5px;
+        border-color: black;
+        text-decoration: none;
+    }
+    .button:hover {
+        background-color: rgb(27, 231, 27);
+    }
+</style>
+</head>
+<body>
+    <h2 align="center">Quiz Pemrograman Web</h2>
+<div class="menu" >
+    <a href="about.html" class="button">about</a>
+    <a href="index.html" class="button">index</a>
+    <a href="input.html" class="button">Input</a>
+    <a href="lis_data.html" class="button">lis_data</a>
+    <a href="tebl_data.html" class="button">tebl_data</a>
+</div>
+<form action="submit.php" method="post">
+    <fieldset>
+    <legend>Rental Kendaraan</legend>
+    <table>
+        <tr>
+            <td>No.Identitas</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Nama lengkap</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>No.hp</td>
+            <td><input type="No.hp"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="Email"></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td><textarea name="Alamat" id="" cols="21" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td>Jenis Kendaraan</td>
+            <td>
+                <select name="Jenis Kendaraan">
+                    <option value="Lamborgini">Lamborgini</option>
+                    <option value="Ferari">Ferari</option>
+                    <option value="Bugati">Bugati</option>
+                    <option value="BMW">BMW</option>
+                    <option value="GTR">Nissan GTR</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Tipe Layanan</td>
+            <td>
+                <input type="radio" name="Tipe Layanan" value="Lepas Kunci"
+        />Lepas Kunci
+                <input type="radio" name="Tipe Layanan" value="Dengan Supir"
+        />Dengan Supir
+            </td>
+        </tr>
+        <tr>
+            <td>Tanggal Sewa</td>
+            <td><input type="date" name="Tangal Sewa" /> s/d 
+                <input type="date" name="Tangal Sewa" />
+            </td>
+        </tr>
+        <tr>
+            <td><br></td>
+            <td>
+                <input type="submit" name="save" value="Submit">
+                <input type="reset" name="BntBatal" value="Batal">
+            </td>
+        </tr>
+            
+    </table>
+    </fieldset>
+</form>
+
+</body>
+</ht
